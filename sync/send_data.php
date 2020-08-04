@@ -12,9 +12,10 @@
     $director = $_POST['director'];
     $genero = $_POST['genero'];
     $fecha = $_POST['fecha'];
+    $imagen = $_POST['imagen'];
 
     // $sql = 'INSERT INTO peliculas(titulo, director, genero, fecha) VALUES("'.$titulo.'", "'.$director.'", "'.$genero.'", '.$fecha.')';
-    $sql = "INSERT INTO peliculas(titulo, director, genero, fecha) VALUES ('$titulo','$director','$genero',$fecha)";
+    $sql = "INSERT INTO peliculas(titulo, director, genero, fecha, imagen) VALUES ('$titulo','$director','$genero',$fecha, '$imagen')";
     mysqli_query($connection, $sql);
     
     echo '<script>

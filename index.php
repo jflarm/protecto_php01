@@ -42,6 +42,10 @@
 			else if($_GET['page'] == 'add_movies'){
 				include(PATH_PROYECT.'/pages/add_movies.php');
 			}
+			
+			else if($_GET['page'] == 'movie_list'){
+				include(PATH_PROYECT.'/pages/movie_list.php');
+			}
 		}
 		else{
 			include(PATH_PROYECT.'/pages/movie_list.php');

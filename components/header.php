@@ -4,7 +4,7 @@
 <style>
 	header{
 		height: 100px;
-		background-color: red;
+		background-color: lightblue;
 		color: #fff;
 	}
 </style>
