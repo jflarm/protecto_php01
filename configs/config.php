@@ -1,11 +1,11 @@
 <?php  
 	
-	const PATH_PROYECT = 'http://localhost:8888/MATERIAL_DE_DESARROLLO/CURSOS/COSAS_CON_FRANCIS';
+	const PATH_PROYECT = 'http://192.168.122.215/proyecto_php01';
 	
 	const SERVER_NAME = 'localhost';
 	const USER_NAME = 'root';
-	const PASSWORD_DB = 'root';
-	const DATA_BASE = 'blog';
+	const PASSWORD_DB = '@lun3wSys';
+	const DATA_BASE = 'primer_proyecto';
 
 	
 
