@@ -7,9 +7,9 @@
 	$result = mysqli_query($connection, $sql);
 	$data = mysqli_fetch_assoc($result);
 
-	echo '<pre>';
-	print_r($data);
-	echo '</pre>';
+	// echo '<pre>';
+	// print_r($data);
+	// echo '</pre>';
 	
 ?>
 
