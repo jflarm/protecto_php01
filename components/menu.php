@@ -9,6 +9,9 @@
 		float: left;
 		padding: 15px;
 	}
+	.listado-peliculas ul{
+		list-style: none;
+	}
 </style>
 <ul>
 	<li><a href="?page=add_movies">ADD MOVIES</a></li>

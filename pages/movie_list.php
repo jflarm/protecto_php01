@@ -22,10 +22,10 @@
 <?php
     while($data = mysqli_fetch_assoc($result)){
 ?>
-        <li><?php echo $data['titulo']; ?></li>
-        <li><?php echo $data['director']; ?></li>
-        <li><?php echo $data['genero']; ?></li>
-        <li><?php echo $data['fecha']; ?></li>
+        <li><img src="<?php echo $data['imagen']?>" width="250" height="250"><br>Titulo: <?php echo $data['titulo']; ?></li>
+        <li>Director: <?php echo $data['director']; ?></li>
+        <li>Genero: <?php echo $data['genero']; ?></li>
+        <li>Fecha: <?php echo $data['fecha']; ?></li>
         <hr>      
 <?php
     }
