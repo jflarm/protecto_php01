@@ -10,6 +10,7 @@
 	echo '<pre>';
 	print_r($data);
 	echo '</pre>';
+	
 ?>
 
 
@@ -28,14 +29,16 @@
 		include(PATH_PROYECT.'/components/header.php');
 
 		// Inclucion dinamica de codigo...
-		if(isset($_GET['page']) and $_GET['page'] == 'contact'){
-			include(PATH_PROYECT.'/pages/contact.php');
-		}
+		if(isset($_GET['page'])){
+		
+			if($_GET['page'] == 'contact'){
+				include(PATH_PROYECT.'/pages/contact.php');
+			}
 
-		else if(isset($_GET['page']) and $_GET['page'] == 'about'){
-			include(PATH_PROYECT.'/pages/about.php');
+			else if($_GET['page'] == 'about'){
+				include(PATH_PROYECT.'/pages/about.php');
+			}
 		}
-
 		else{
 			echo '<h1>Estas en el home</h1>';
 		}
