@@ -4,7 +4,7 @@
 
 <h1>Estas agregando peliculas en add-movies</h1>
 
-<form action="<?php echo PROJECT_PATH;?>'/sync/send_data.php" method="post">
+<form action="<?php echo PATH_PROYECT;?>/sync/send_data.php" method="post">
     <label for="titulo">Titulo</label>
     <input type="text" id="titulo" name="titulo" placeholder="Titulo...">
 
