@@ -44,7 +44,8 @@
 			}
 		}
 		else{
-			echo '<h1>Estas en el home</h1>';
+			include(PATH_PROYECT.'/pages/movie_list.php');
+			// echo '<h1>Estas en el home</h1>';
 		}
 
 		

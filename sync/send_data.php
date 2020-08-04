@@ -23,5 +23,3 @@
     </script>';
     
 ?>
-
-<h2>Pelicula agregada correctamente.</h2>

@@ -1,11 +1,11 @@
 <style>
-	ul{
+	nav ul{
 		list-style: none;
 		margin: 0;
 		padding: 0;
 	}
 
-	ul li{
+	nav ul li{
 		float: left;
 		padding: 15px;
 	}
