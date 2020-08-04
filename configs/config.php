@@ -5,7 +5,7 @@
 	const SERVER_NAME = 'localhost';
 	const USER_NAME = 'root';
 	const PASSWORD_DB = '@lun3wSys';
-	const DATA_BASE = 'primer_proyecto';
+	const DATA_BASE = 'cine';
 
 	
 

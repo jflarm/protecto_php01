@@ -38,6 +38,10 @@
 			else if($_GET['page'] == 'about'){
 				include(PATH_PROYECT.'/pages/about.php');
 			}
+
+			else if($_GET['page'] == 'add_movies'){
+				include(PATH_PROYECT.'/pages/add_movies.php');
+			}
 		}
 		else{
 			echo '<h1>Estas en el home</h1>';
