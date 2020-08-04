@@ -26,6 +26,10 @@
         <li>Director: <?php echo $data['director']; ?></li>
         <li>Genero: <?php echo $data['genero']; ?></li>
         <li>Fecha: <?php echo $data['fecha']; ?></li>
+        <button>
+            <a href="<?php echo PATH_PROYECT?>/pages/movie.php?movie_id=<?php echo $data['id'];?>">Detalles</a>
+            
+        </button>
         <hr>      
 <?php
     }
