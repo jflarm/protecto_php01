@@ -37,8 +37,12 @@
             <a href="<?php echo PATH_PROYECT?>/pages/movie.php?movie_id=<?php echo $data['id'];?>">Detalles</a>
         </button>
 
+        <button>
+            <a href="<?php echo PATH_PROYECT?>/pages/edit_movie.php?movie_id=<?php echo $data['id'];?>">Editar</a>
+        </button>
+
         <button >
-            Eliminar           
+            <a href="<?php echo PATH_PROYECT?>/pages/delete_movie.php?movie_id=<?php echo $data['id'];?>">Eliminar</a>
         </button>
         <hr>      
 <?php

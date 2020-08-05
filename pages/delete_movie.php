@@ -8,6 +8,11 @@
     
     $result = mysqli_query($connection, $sql);
     $data = mysqli_fetch_assoc($result);
+
+    echo '<script>
+        alert("Pelicula eliminada!")
+        window.location.href="'.PATH_PROYECT.'/"
+    </script>';
 ?>
 
 
