@@ -12,6 +12,8 @@
 	.listado-peliculas ul{
 		list-style: none;
 	}
+
+
 </style>
 <ul>
 	<li><a href="?page=movie_list">Home</a></li>

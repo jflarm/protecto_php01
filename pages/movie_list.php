@@ -1,3 +1,10 @@
+<style>
+    .detalles-pelicula ul{
+        list-style: none;
+    }
+
+</style>
+
 <?php
     include('../configs/config.php');
     include('../configs/connection.php');
@@ -28,7 +35,10 @@
         <li>Fecha: <?php echo $data['fecha']; ?></li>
         <button>
             <a href="<?php echo PATH_PROYECT?>/pages/movie.php?movie_id=<?php echo $data['id'];?>">Detalles</a>
-            
+        </button>
+
+        <button >
+            Eliminar           
         </button>
         <hr>      
 <?php
