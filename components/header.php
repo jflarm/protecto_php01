@@ -12,4 +12,5 @@
 	<nav>
 		<?php include(PATH_PROYECT.'/components/menu.php'); ?>
 	</nav>
+	<input type="text" id="buscar">
 </header>

@@ -6,7 +6,7 @@
 
     require_once('../configs/config.php');
     require_once('../configs/connection.php');
-
+    
     $id = $_POST['id'];
     $option = $_GET['option'];
     $titulo = $_POST['titulo'];
@@ -17,6 +17,7 @@
 
     if(isset($option)){
         if($option == 'edit'){
+            
             $sql = "UPDATE  peliculas SET titulo='$titulo', director='$director', genero='$genero', fecha=$fecha, imagen='$imagen' WHERE id=$id";
             mysqli_query($connection, $sql);
             echo '<script>

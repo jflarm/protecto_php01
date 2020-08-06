@@ -1,10 +1,10 @@
 <?php  
 	
-	const PATH_PROYECT = 'http://192.168.122.215/proyecto_php01';
+	const PATH_PROYECT = 'http://localhost/COSAS_CON_FRANCIS/cine/protecto_php01';
 	
 	const SERVER_NAME = 'localhost';
 	const USER_NAME = 'root';
-	const PASSWORD_DB = '@lun3wSys';
+	const PASSWORD_DB = '';
 	const DATA_BASE = 'cine';
 
 	
